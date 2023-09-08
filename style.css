@@ -1,0 +1,44 @@
+#text {
+    font-size: 4em;
+    font-weight: bold;
+    color:#666;
+    text-align: center;
+}
+
+span {
+    transition: all 300ms 0s ease;
+}
+
+.add-blue {
+    font-size: 0.5em;
+    color: #00f;
+}
+
+ h1 {
+    text-align: center;
+    font-family: "Nikukyu";
+}
+
+#risutart {
+    bottom: 700px;
+    position: absolute;
+    font-weight: 200;
+}
+body {
+    background: linear-gradient(50deg, red, orange, yellow, green, blue, deepskyblue, purple); /* 背景色を水色に変更 */
+    background-size: 600% 600%;
+    animation: gradientAnimation 10s ease infinite;
+    
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
